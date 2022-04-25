@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '/Navbar/Navbar.dart';
+import 'package:my_web_app/LandingPage/aboutpage.dart';
 
 class About_Page extends StatelessWidget {
   @override
@@ -19,8 +20,10 @@ class About_Page extends StatelessWidget {
           child: Column(
             children: <Widget>[
               Navbar(),
-              const Padding(
-                padding: EdgeInsets.symmetric(vertical: 20.0, horizontal: 40.0),
+              Padding(
+                padding: const EdgeInsets.symmetric(
+                    vertical: 20.0, horizontal: 40.0),
+                child: AboutPage(),
               )
             ],
           ),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '/LandingPage/LandingPage.dart';
 import '/Navbar/Navbar.dart';
 
 class Started_Page extends StatelessWidget {
@@ -19,8 +20,10 @@ class Started_Page extends StatelessWidget {
           child: Column(
             children: <Widget>[
               Navbar(),
-              const Padding(
-                padding: EdgeInsets.symmetric(vertical: 20.0, horizontal: 40.0),
+              Padding(
+                padding: const EdgeInsets.symmetric(
+                    vertical: 20.0, horizontal: 40.0),
+                // child: LandingPage(),
               )
             ],
           ),

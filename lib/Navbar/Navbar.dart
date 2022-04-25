@@ -73,7 +73,7 @@ class DesktopNavbar extends StatelessWidget {
                       );
                     },
                     child: const Text(
-                      "About Us",
+                      "About",
                       style: TextStyle(color: Colors.white),
                     ),
                   ),
@@ -170,7 +170,7 @@ class MobileNavbar extends StatelessWidget {
                                 BorderRadius.all(Radius.circular(20.0))),
                         onPressed: () {},
                         child: const Text(
-                          "About Us",
+                          "About",
                           style: TextStyle(color: Colors.white),
                         ),
                       ),
